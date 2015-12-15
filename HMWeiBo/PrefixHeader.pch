@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  HMWeiBo
+//
+//  Created by lychow on 12/15/15.
+//  Copyright © 2015 LY'S MacBook Air. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extention.h"
+#import "UIBarItem+Extention.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

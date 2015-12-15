@@ -13,14 +13,17 @@
 		28E13B0C1C1C01C000898808 /* HMWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B0B1C1C01C000898808 /* HMWeiBoTests.m */; };
 		28E13B171C1C01C000898808 /* HMWeiBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B161C1C01C000898808 /* HMWeiBoUITests.m */; };
 		28E13B341C1D648E00898808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B2D1C1D648E00898808 /* AppDelegate.m */; };
-		28E13B381C1D65A400898808 /* HWTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B371C1D65A400898808 /* HWTabbarController.m */; };
-		28E13B3B1C1D65CB00898808 /* HWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B3A1C1D65CB00898808 /* HWNavigationController.m */; };
 		28E13B3E1C1D662300898808 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B3D1C1D662300898808 /* HWHomeViewController.m */; };
 		28E13B411C1D663E00898808 /* HWMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B401C1D663E00898808 /* HWMessageCenterViewController.m */; };
 		28E13B441C1D665000898808 /* HWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B431C1D665000898808 /* HWDiscoverViewController.m */; };
 		28E13B471C1D665C00898808 /* HWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B461C1D665C00898808 /* HWProfileViewController.m */; };
 		28E13B4A1C1D730600898808 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B491C1D730600898808 /* UIView+Extention.m */; };
 		28E13B4D1C1D733B00898808 /* UIBarItem+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B4C1C1D733B00898808 /* UIBarItem+Extention.m */; };
+		4FCDA5F11C1FB4A900C215AB /* HWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDA5ED1C1FB4A900C215AB /* HWNavigationController.m */; };
+		4FCDA5F21C1FB4A900C215AB /* HWTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDA5EF1C1FB4A900C215AB /* HWTabbarController.m */; };
+		4FCDA5F51C1FBD6700C215AB /* HWSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDA5F41C1FBD6700C215AB /* HWSearchBar.m */; };
+		4FCDA5F81C1FCE2600C215AB /* HWDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDA5F71C1FCE2600C215AB /* HWDropDownMenu.m */; };
+		4FCDA5FB1C20417400C215AB /* HWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDA5FA1C20417400C215AB /* HWTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +57,6 @@
 		28E13B181C1C01C000898808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E13B2C1C1D648E00898808 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28E13B2D1C1D648E00898808 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28E13B361C1D65A400898808 /* HWTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabbarController.h; sourceTree = "<group>"; };
-		28E13B371C1D65A400898808 /* HWTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabbarController.m; sourceTree = "<group>"; };
-		28E13B391C1D65CB00898808 /* HWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNavigationController.h; sourceTree = "<group>"; };
-		28E13B3A1C1D65CB00898808 /* HWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNavigationController.m; sourceTree = "<group>"; };
 		28E13B3C1C1D662300898808 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
 		28E13B3D1C1D662300898808 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
 		28E13B3F1C1D663E00898808 /* HWMessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMessageCenterViewController.h; sourceTree = "<group>"; };
@@ -70,6 +69,18 @@
 		28E13B491C1D730600898808 /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
 		28E13B4B1C1D733A00898808 /* UIBarItem+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+Extention.h"; sourceTree = "<group>"; };
 		28E13B4C1C1D733B00898808 /* UIBarItem+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+Extention.m"; sourceTree = "<group>"; };
+		4FCDA5E81C1FACA200C215AB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4FCDA5EB1C1FB4A900C215AB /* HWContans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWContans.h; sourceTree = "<group>"; };
+		4FCDA5EC1C1FB4A900C215AB /* HWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNavigationController.h; sourceTree = "<group>"; };
+		4FCDA5ED1C1FB4A900C215AB /* HWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNavigationController.m; sourceTree = "<group>"; };
+		4FCDA5EE1C1FB4A900C215AB /* HWTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabbarController.h; sourceTree = "<group>"; };
+		4FCDA5EF1C1FB4A900C215AB /* HWTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabbarController.m; sourceTree = "<group>"; };
+		4FCDA5F31C1FBD6700C215AB /* HWSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSearchBar.h; sourceTree = "<group>"; };
+		4FCDA5F41C1FBD6700C215AB /* HWSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSearchBar.m; sourceTree = "<group>"; };
+		4FCDA5F61C1FCE2600C215AB /* HWDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDropDownMenu.h; sourceTree = "<group>"; };
+		4FCDA5F71C1FCE2600C215AB /* HWDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDropDownMenu.m; sourceTree = "<group>"; };
+		4FCDA5F91C20417400C215AB /* HWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBar.h; sourceTree = "<group>"; };
+		4FCDA5FA1C20417400C215AB /* HWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				28E13AF21C1C01C000898808 /* main.m */,
+				4FCDA5E81C1FACA200C215AB /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,25 +172,15 @@
 			children = (
 				28E13B2C1C1D648E00898808 /* AppDelegate.h */,
 				28E13B2D1C1D648E00898808 /* AppDelegate.m */,
+				4FCDA5EA1C1FB4A900C215AB /* Main */,
+				4FCDA5F01C1FB4A900C215AB /* Tools */,
 				28E13B311C1D648E00898808 /* Home */,
 				28E13B351C1D64C100898808 /* MessageCenter */,
 				28E13B301C1D648E00898808 /* Discover */,
 				28E13B321C1D648E00898808 /* Profile */,
-				28E13B2E1C1D648E00898808 /* Base */,
 				28E13B2F1C1D648E00898808 /* Category */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		28E13B2E1C1D648E00898808 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				28E13B361C1D65A400898808 /* HWTabbarController.h */,
-				28E13B371C1D65A400898808 /* HWTabbarController.m */,
-				28E13B391C1D65CB00898808 /* HWNavigationController.h */,
-				28E13B3A1C1D65CB00898808 /* HWNavigationController.m */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		28E13B2F1C1D648E00898808 /* Category */ = {
@@ -226,6 +228,31 @@
 				28E13B401C1D663E00898808 /* HWMessageCenterViewController.m */,
 			);
 			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		4FCDA5EA1C1FB4A900C215AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDA5EB1C1FB4A900C215AB /* HWContans.h */,
+				4FCDA5EC1C1FB4A900C215AB /* HWNavigationController.h */,
+				4FCDA5ED1C1FB4A900C215AB /* HWNavigationController.m */,
+				4FCDA5EE1C1FB4A900C215AB /* HWTabbarController.h */,
+				4FCDA5EF1C1FB4A900C215AB /* HWTabbarController.m */,
+				4FCDA5F91C20417400C215AB /* HWTabBar.h */,
+				4FCDA5FA1C20417400C215AB /* HWTabBar.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4FCDA5F01C1FB4A900C215AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4FCDA5F31C1FBD6700C215AB /* HWSearchBar.h */,
+				4FCDA5F41C1FBD6700C215AB /* HWSearchBar.m */,
+				4FCDA5F61C1FCE2600C215AB /* HWDropDownMenu.h */,
+				4FCDA5F71C1FCE2600C215AB /* HWDropDownMenu.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,16 +385,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCDA5F81C1FCE2600C215AB /* HWDropDownMenu.m in Sources */,
 				28E13B441C1D665000898808 /* HWDiscoverViewController.m in Sources */,
 				28E13B3E1C1D662300898808 /* HWHomeViewController.m in Sources */,
+				4FCDA5F21C1FB4A900C215AB /* HWTabbarController.m in Sources */,
 				28E13B341C1D648E00898808 /* AppDelegate.m in Sources */,
 				28E13B471C1D665C00898808 /* HWProfileViewController.m in Sources */,
+				4FCDA5F11C1FB4A900C215AB /* HWNavigationController.m in Sources */,
 				28E13B4A1C1D730600898808 /* UIView+Extention.m in Sources */,
 				28E13B4D1C1D733B00898808 /* UIBarItem+Extention.m in Sources */,
 				28E13B411C1D663E00898808 /* HWMessageCenterViewController.m in Sources */,
-				28E13B381C1D65A400898808 /* HWTabbarController.m in Sources */,
-				28E13B3B1C1D65CB00898808 /* HWNavigationController.m in Sources */,
+				4FCDA5FB1C20417400C215AB /* HWTabBar.m in Sources */,
 				28E13AF31C1C01C000898808 /* main.m in Sources */,
+				4FCDA5F51C1FBD6700C215AB /* HWSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = HMWeiBo/PrefixHeader.pch;
 				INFOPLIST_FILE = HMWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lychow.pragrammer.HMWeiBo;
@@ -509,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = HMWeiBo/PrefixHeader.pch;
 				INFOPLIST_FILE = HMWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lychow.pragrammer.HMWeiBo;

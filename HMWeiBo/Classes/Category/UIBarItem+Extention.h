@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIBarItem (Extention)
-+(UIBarButtonItem *)initWithBarItemImage:(NSString *)imageName selectedImage:(NSString *)selectedImageName selector:(SEL)selector;
++(UIBarButtonItem *)initWithBarItemImage:(NSString *)imageName selectedImage:(NSString *)selectedImageName target:(id)target action:(SEL)action;
 @end
