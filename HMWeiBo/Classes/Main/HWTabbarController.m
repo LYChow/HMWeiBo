@@ -38,7 +38,7 @@
     [self setTabBarItemWithChildVC:profileVC title:@"我" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
     
     HWTabBar *tabBar =[[HWTabBar alloc] init];
-    tabBar.delegate =self;
+//    tabBar.delegate =self;
      //通过KVC设置tabbar的属性为自定义的tabbar
     [self setValue:tabBar forKeyPath:@"tabBar"];
 

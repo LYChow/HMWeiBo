@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HWTabbarController.h"
+#import "HWOAuthViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +20,8 @@
     // Override point for customization after application launch.
     self.window =[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController =[[HWTabbarController alloc] init];
-    
+//    self.window.rootViewController =[[HWTabbarController alloc] init];
+        self.window.rootViewController =[[HWOAuthViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
 }
