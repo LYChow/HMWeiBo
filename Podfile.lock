@@ -1,27 +1,30 @@
 PODS:
-  - AFNetworking (3.0.2):
-    - AFNetworking/NSURLSession (= 3.0.2)
-    - AFNetworking/Reachability (= 3.0.2)
-    - AFNetworking/Security (= 3.0.2)
-    - AFNetworking/Serialization (= 3.0.2)
-    - AFNetworking/UIKit (= 3.0.2)
-  - AFNetworking/NSURLSession (3.0.2):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.2)
-  - AFNetworking/Security (3.0.2)
-  - AFNetworking/Serialization (3.0.2)
-  - AFNetworking/UIKit (3.0.2):
-    - AFNetworking/NSURLSession
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - MBProgressHUD (0.9.1)
   - MJRefresh (3.0.7)
+  - Reachability (3.2)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0.0-beta.2)
+  - ASIHTTPRequest (~> 1.8.2)
+  - MBProgressHUD (~> 0.9.1)
   - MJRefresh (~> 3.0.7)
 
 SPEC CHECKSUMS:
-  AFNetworking: 2f30b7db399a405b12b24e049c654f108fc8c54d
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJRefresh: f3e1228ec3d38c7ba5208d58032631a52f39f495
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 COCOAPODS: 0.39.0

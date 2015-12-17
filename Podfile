@@ -3,8 +3,9 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 target 'HMWeiBo' do
+pod 'ASIHTTPRequest', '~> 1.8.2'
+pod 'MBProgressHUD', '~> 0.9.1'
 pod 'MJRefresh', '~> 3.0.7'
-pod 'AFNetworking', '~> 3.0.0-beta.2'
 end
 
 target 'HMWeiBoTests' do

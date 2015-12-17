@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "HWTabbarController.h"
 #import "HWOAuthViewController.h"
+#import "HWAccountTool.h"
 @interface AppDelegate ()
 
 @end
@@ -20,8 +21,18 @@
     // Override point for customization after application launch.
     self.window =[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-//    self.window.rootViewController =[[HWTabbarController alloc] init];
-        self.window.rootViewController =[[HWOAuthViewController alloc] init];
+    
+    HWAccount *account =[HWAccountTool account];
+    
+    if (account)
+    {
+        self.window.rootViewController =[[HWTabbarController alloc] init];
+    }
+    else
+    {
+      self.window.rootViewController =[[HWOAuthViewController alloc] init];
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
