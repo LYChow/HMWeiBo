@@ -10,6 +10,7 @@
 #import "HWDiscoverViewController.h"
 #import "HWSearchBar.h"
 #import "HWDropDownMenu.h"
+#import "HWTitleButton.h"
 @interface HWHomeViewController ()<dropDownMenuDelegate>
 {
 HWDropDownMenu *menu;
@@ -23,17 +24,19 @@ HWDropDownMenu *menu;
     [super viewDidLoad];
 
     self.view.backgroundColor =[UIColor whiteColor];
-
-    UIButton *homeBtn =[[UIButton alloc] initWithFrame:CGRectMake(10, 10, 100, 30)];
-    [homeBtn setTitle:@"首页" forState:UIControlStateNormal];
-    [homeBtn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
-    [homeBtn addTarget:self action:@selector(popDropDownMenuFrom:) forControlEvents:UIControlEventTouchUpInside];
-    [homeBtn setImage:[UIImage imageNamed:@"navigationbar_arrow_down"] forState:UIControlStateNormal];
-    [homeBtn setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateSelected];
-    homeBtn.imageEdgeInsets =UIEdgeInsetsMake(0, 80, 0, 0);
-    homeBtn.titleEdgeInsets =UIEdgeInsetsMake(0, 0, 0, 30);
-    self.navigationItem.titleView =homeBtn;
+     
+    HWTitleButton *titleButton =[[HWTitleButton alloc] init];
+    titleButton.backgroundColor =[UIColor redColor];
+    [titleButton setTitle:@"111111" forState:UIControlStateNormal];
+    [titleButton addTarget:self action:@selector(dropMenuStatusChange:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.titleView = titleButton;
     
+}
+
+-(void)dropMenuStatusChange:(UIButton *)btn
+{
+
+    btn.selected=!btn.self.selected;
 }
 
 -(void)popDropDownMenuFrom:(UIView *)view

@@ -21,6 +21,7 @@
 		28E13B4D1C1D733B00898808 /* UIBarItem+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E13B4C1C1D733B00898808 /* UIBarItem+Extention.m */; };
 		396F13950944B1A53E3112AB /* libPods-HMWeiBo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2C406978B91D638FE28376 /* libPods-HMWeiBo.a */; };
 		4F5F48B71C22DA5600BFBCAC /* HWAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F48B61C22DA5600BFBCAC /* HWAccountTool.m */; };
+		4F5F48BA1C23FC1200BFBCAC /* HWTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F48B91C23FC1200BFBCAC /* HWTitleButton.m */; };
 		4FE8FE481C229EB600585FF9 /* HWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8FE3F1C229EB600585FF9 /* HWNavigationController.m */; };
 		4FE8FE491C229EB600585FF9 /* HWOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8FE411C229EB600585FF9 /* HWOAuthViewController.m */; };
 		4FE8FE4A1C229EB600585FF9 /* HWTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8FE431C229EB600585FF9 /* HWTabbarController.m */; };
@@ -86,6 +87,8 @@
 		4894AF16D288ABC70E2848CA /* Pods-HMWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMWeiBo/Pods-HMWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
 		4F5F48B51C22DA5600BFBCAC /* HWAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAccountTool.h; sourceTree = "<group>"; };
 		4F5F48B61C22DA5600BFBCAC /* HWAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAccountTool.m; sourceTree = "<group>"; };
+		4F5F48B81C23FC1200BFBCAC /* HWTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTitleButton.h; sourceTree = "<group>"; };
+		4F5F48B91C23FC1200BFBCAC /* HWTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTitleButton.m; sourceTree = "<group>"; };
 		4FCDA5E81C1FACA200C215AB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4FCDA5EB1C1FB4A900C215AB /* HWContans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWContans.h; sourceTree = "<group>"; };
 		4FE8FE3E1C229EB600585FF9 /* HWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNavigationController.h; sourceTree = "<group>"; };
@@ -304,6 +307,8 @@
 			children = (
 				4FE8FE451C229EB600585FF9 /* HWTabBar.h */,
 				4FE8FE461C229EB600585FF9 /* HWTabBar.m */,
+				4F5F48B81C23FC1200BFBCAC /* HWTitleButton.h */,
+				4F5F48B91C23FC1200BFBCAC /* HWTitleButton.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -581,6 +586,7 @@
 				4FE8FE6B1C22C21E00585FF9 /* AFNetworkReachabilityManager.m in Sources */,
 				4FE8FE481C229EB600585FF9 /* HWNavigationController.m in Sources */,
 				28E13B411C1D663E00898808 /* HWMessageCenterViewController.m in Sources */,
+				4F5F48BA1C23FC1200BFBCAC /* HWTitleButton.m in Sources */,
 				4FE8FE4B1C229EB600585FF9 /* HWTabBar.m in Sources */,
 				4FE8FE681C22C21E00585FF9 /* AFHTTPRequestOperation.m in Sources */,
 				4FE8FE4A1C229EB600585FF9 /* HWTabbarController.m in Sources */,
